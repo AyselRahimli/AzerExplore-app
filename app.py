@@ -58,8 +58,7 @@ def generate_activity_plan(city, days):
               ]
       else:
               return "Sorry, I can only generate activity plans for 1, 3, or 7 days."
-          
-          pass
+         
     elif city.lower() == "karabakh":
       if days == 1:
             messages = [
@@ -79,8 +78,6 @@ def generate_activity_plan(city, days):
       else:
               return "Sorry, I can only generate activity plans for 1, 3, or 7 days."
                 
-        
-        pass
     elif city.lower() == "nakchivan":
       if days == 1:
             messages = [
@@ -99,8 +96,6 @@ def generate_activity_plan(city, days):
               ]
       else:
               return "Sorry, I can only generate activity plans for 1, 3, or 7 days."
-                        
-        pass
     else:
         return "Sorry, I can only generate activity plans for Shaki, Baku, Guba, Karabakh, or Nakchivan."
 
